@@ -631,3 +631,8 @@ export default class Innertube {
     return this.#session;
   }
 }
+
+export const Parsers = {
+  HomeFeed,
+  History
+}

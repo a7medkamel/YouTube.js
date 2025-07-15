@@ -57,11 +57,6 @@
     "./cf-worker": {
       "types": "./dist/src/platform/lib.d.ts",
       "default": "./dist/src/platform/cf-worker.js"
-    },
-    "./dist/*": {
-      "import": "./dist/*",
-      "require": "./dist/*",
-      "types":   "./dist/*.d.ts"
     }
   },
   "author": "LuanRT <luan.lrt4@gmail.com> (https://github.com/LuanRT)",
