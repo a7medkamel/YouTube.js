@@ -58,15 +58,10 @@
       "types": "./dist/src/platform/lib.d.ts",
       "default": "./dist/src/platform/cf-worker.js"
     },
-    "./parser/youtube/HomeFeed": {
-      "import": "./dist/src/parser/youtube/HomeFeed.js",
-      "types": "./dist/src/parser/youtube/HomeFeed.d.ts",
-      "default": "./dist/src/parser/youtube/HomeFeed.js"
-    },
-    "./parser/youtube/History": {
-      "import": "./dist/src/parser/youtube/History.js",
-      "types": "./dist/src/parser/youtube/History.d.ts",
-      "default": "./dist/src/parser/youtube/History.js"
+    "./dist/*": {
+      "import": "./dist/*",
+      "require": "./dist/*",
+      "types":   "./dist/*.d.ts"
     }
   },
   "author": "LuanRT <luan.lrt4@gmail.com> (https://github.com/LuanRT)",
