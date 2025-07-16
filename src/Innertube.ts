@@ -632,7 +632,7 @@ export default class Innertube {
   }
 }
 
-export const Parsers = {
+export const Patch = {
   HomeFeed,
   History
 }
