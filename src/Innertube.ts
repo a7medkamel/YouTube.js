@@ -638,3 +638,8 @@ export default class Innertube {
     return this.#session;
   }
 }
+
+export const Patch = {
+  HomeFeed,
+  History
+}
