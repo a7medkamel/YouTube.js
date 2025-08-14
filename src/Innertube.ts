@@ -645,3 +645,5 @@ export const Patch = {
   History,
   YTNode
 }
+
+export type P_YTNode = YTNode;
