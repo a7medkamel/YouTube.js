@@ -51,6 +51,7 @@ import {
   SearchFilter_Filters_UploadDate,
   SearchFilter_SortBy
 } from '../protos/generated/misc/params.js';
+import { YTNode } from './parser/helpers.js';
 
 /**
  * Provides access to various services and modules in the YouTube API.
@@ -641,5 +642,6 @@ export default class Innertube {
 
 export const Patch = {
   HomeFeed,
-  History
+  History,
+  YTNode
 }
