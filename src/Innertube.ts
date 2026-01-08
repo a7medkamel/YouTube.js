@@ -643,7 +643,8 @@ export default class Innertube {
 export const Patch = {
   HomeFeed,
   History,
-  YTNode
+  YTNode,
+  VideoInfo
 }
 
 export type P_YTNode = YTNode;
